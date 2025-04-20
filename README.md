@@ -8,7 +8,7 @@
 * Overview: https://minitorch.github.io/module1/module1/
 
 <figure>
-  <img src="newplot_simple.jpg" alt="Classified" width="500" height="auto">
+  <img src="newplot_simple.png" alt="Classified" width="500" height="auto">
   <figcaption>Classified Image</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@
 - *RATE* = 0.5
 
 <figure>
-  <img src="newplot_XOR.jpg" alt="Classified" width="500" height="auto">
+  <img src="newplot_XOR.png" alt="Classified" width="500" height="auto">
   <figcaption>XOR Classified Image</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@
 - *RATE* = 0.5
 
 <figure>
-  <img src="newplot_circle.jpg" alt="Classified" width="500" height="auto">
+  <img src="newplot_circle.png" alt="Classified" width="500" height="auto">
   <figcaption>XOR Classified Image</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@
 - *RATE* = 0.5
 
 <figure>
-  <img src="newplot_circle.jpg" alt="Classified" width="500" height="auto">
+  <img src="newplot_circle.png" alt="Classified" width="500" height="auto">
   <figcaption>XOR Classified Image</figcaption>
 </figure>
 
