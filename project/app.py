@@ -5,6 +5,9 @@ from interface.streamlit_utils import get_img_tag
 from interface.train import render_train_interface
 from math_interface import render_math_sandbox
 from run_torch import TorchTrain
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 parser = ArgumentParser()
 parser.add_argument("module_num", type=int)

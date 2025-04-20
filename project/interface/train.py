@@ -133,7 +133,7 @@ def render_train_interface(
                 xaxis=dict(range=[0, max_epochs]),
                 yaxis=dict(range=[0, max(losses)]),
             )
-            st_epoch_plot.plotly_chart(fig)
+            st_epoch_image.plotly_chart(plot(), key=f"plot_epoch_{epoch}")
 
             print(
                 f"Epoch: {epoch}/{max_epochs}, loss: {total_loss}, correct: {correct}"

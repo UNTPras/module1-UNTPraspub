@@ -6,12 +6,16 @@ import random
 
 import minitorch
 
+import streamlit as st
+
+
 
 class Network(minitorch.Module):
     def __init__(self, hidden_layers):
         super().__init__()
-        # TODO: Implement for Task 1.5.
-        raise NotImplementedError("Need to implement for Task 1.5")
+        self.layer1 = Linear(2, hidden_layers)   # Input layer (2 inputs)
+        self.layer2 = Linear(hidden_layers, hidden_layers)  # Hidden layer
+        self.layer3 = Linear(hidden_layers, 1)
 
     def forward(self, x):
         middle = [h.relu() for h in self.layer1.forward(x)]
@@ -40,8 +44,14 @@ class Linear(minitorch.Module):
             )
 
     def forward(self, inputs):
-        # TODO: Implement for Task 1.5.
-        raise NotImplementedError("Need to implement for Task 1.5")
+        outputs = []
+        for j in range(len(self.bias)):
+            out = self.bias[j].value
+            for i in range(len(inputs)):
+                out += inputs[i] * self.weights[i][j].value
+            outputs.append(out)
+        return outputs
+
 
 
 def default_log_fn(epoch, total_loss, correct, losses):
@@ -54,9 +64,8 @@ class ScalarTrain:
         self.model = Network(self.hidden_layers)
 
     def run_one(self, x):
-        return self.model.forward(
-            (minitorch.Scalar(x[0], name="x_1"), minitorch.Scalar(x[1], name="x_2"))
-        )
+       return self.model.forward((minitorch.Scalar(x[0]), minitorch.Scalar(x[1])))
+
 
     def train(self, data, learning_rate, max_epochs=500, log_fn=default_log_fn):
         self.learning_rate = learning_rate
@@ -100,8 +109,7 @@ class ScalarTrain:
 
 
 if __name__ == "__main__":
-    PTS = 50
-    HIDDEN = 2
-    RATE = 0.5
-    data = minitorch.datasets["Simple"](PTS)
-    ScalarTrain(HIDDEN).train(data, RATE)
+   PTS = 50
+   DATASET = minitorch.datasets["Simple"](PTS)
+   HIDDEN = 2
+   RATE = 0.5

@@ -7,6 +7,73 @@
 
 * Overview: https://minitorch.github.io/module1/module1/
 
+<figure>
+  <img src="newplot_simple.jpg" alt="Classified" width="500" height="auto">
+  <figcaption>Classified Image</figcaption>
+</figure>
+
+### Parameters used:
+
+- *Dataset*: Simple
+- *PTS*: 50
+- *HIDDEN* = 2
+- *RATE* = 0.5
+
+<figure>
+  <img src="newplot_XOR.jpg" alt="Classified" width="500" height="auto">
+  <figcaption>XOR Classified Image</figcaption>
+</figure>
+
+
+### Parameters Used:
+
+- *Dataset*: XOR
+- *PTS*: 50
+- *HIDDEN* = 10
+- *RATE* = 0.5
+
+<figure>
+  <img src="newplot_circle.jpg" alt="Classified" width="500" height="auto">
+  <figcaption>XOR Classified Image</figcaption>
+</figure>
+
+
+### Parameters Used:
+
+- *Dataset*: circle
+- *PTS*: 50
+- *HIDDEN* = 2
+- *RATE* = 0.5
+
+<figure>
+  <img src="newplot_circle.jpg" alt="Classified" width="500" height="auto">
+  <figcaption>XOR Classified Image</figcaption>
+</figure>
+
+
+### Parameters Used:
+
+- *Dataset*: circle
+- *PTS*: 50
+- *HIDDEN* = 2
+- *RATE* = 0.5
+
+<figure>
+  <img src="newplot_spiral.jpg" alt="Classified" width="500" height="auto">
+  <figcaption>XOR Classified Image</figcaption>
+</figure>
+
+
+### Parameters Used:
+
+- *Dataset*: spiral
+- *PTS*: 50
+- *HIDDEN* = 2
+- *RATE* = 0.5
+
+
+
+
 This assignment requires the following files from the previous assignments. You can get these by running
 
 ```bash
