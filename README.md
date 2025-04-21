@@ -9,7 +9,7 @@
 
 <figure>
   <img src="newplot_simple.png" alt="Classified" width="500" height="auto">
-  <figcaption>Classified Image</figcaption>
+  <figcaption>Simple Classified Image</figcaption>
 </figure>
 
 ### Parameters used:
@@ -34,20 +34,7 @@
 
 <figure>
   <img src="newplot_circle.png" alt="Classified" width="500" height="auto">
-  <figcaption>XOR Classified Image</figcaption>
-</figure>
-
-
-### Parameters Used:
-
-- *Dataset*: circle
-- *PTS*: 50
-- *HIDDEN* = 2
-- *RATE* = 0.5
-
-<figure>
-  <img src="newplot_circle.png" alt="Classified" width="500" height="auto">
-  <figcaption>XOR Classified Image</figcaption>
+  <figcaption>Circle Classified Image</figcaption>
 </figure>
 
 
@@ -60,7 +47,7 @@
 
 <figure>
   <img src="newplot_spiral.jpg" alt="Classified" width="500" height="auto">
-  <figcaption>XOR Classified Image</figcaption>
+  <figcaption>Spiral Classified Image</figcaption>
 </figure>
 
 
