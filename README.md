@@ -46,7 +46,7 @@
 - *RATE* = 0.5
 
 <figure>
-  <img src="newplot_spiral.jpg" alt="Classified" width="500" height="auto">
+  <img src="newplot_spiral.png" alt="Classified" width="500" height="auto">
   <figcaption>Spiral Classified Image</figcaption>
 </figure>
 
